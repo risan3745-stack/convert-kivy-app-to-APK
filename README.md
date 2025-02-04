@@ -12,4 +12,5 @@ Converts your kivy app into an APK to install in android.
 9. download the zip file
 10. extract the zip file
 11. you should get your apk!!!!!!!!
-12. (IF YOU GET AN ERROR DURING THE ACTION, DONT HESATATE TO POST AN ISSUE!!!!!!!!)
+12. (If you would also like an .aab file, UNCOMMENT line 308
+13. (IF YOU GET AN ERROR DURING THE ACTION, DONT HESATATE TO POST AN ISSUE!!!!!!!!)
