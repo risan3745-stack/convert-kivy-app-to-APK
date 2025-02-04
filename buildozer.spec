@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Galaxy Viewer
+title = YOUR TITLE
 
 # (str) Package name
-package.name = arjunits
+package.name = YOUR COMPANY NAME
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.arjune
+package.domain = org.whatever_you_want
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -44,10 +44,10 @@ requirements = python3,kivy,sdl2_ttf,pillow,kivy-garden,kivymd,openssl,android,r
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/icon.png
+presplash.filename = %(source.dir)s/images/YOUR_PRESPLASH_GOES_HERE
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/images/icon.png
+icon.filename = %(source.dir)s/images/YOUR_ICON_GOES_HERE
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
