@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = YOUR TITLE
+title = Capitalizer
 
 # (str) Package name
-package.name = YOUR COMPANY NAME
+package.name = arjunits
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.whatever_you_want
+package.domain = org.arjune
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -44,10 +44,10 @@ requirements = python3,kivy,sdl2_ttf,pillow,kivy-garden,kivymd,openssl,android,r
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/YOUR_PRESPLASH_GOES_HERE
+presplash.filename = %(source.dir)s/images/icon.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/images/YOUR_ICON_GOES_HERE
+icon.filename = %(source.dir)s/images/icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
@@ -305,7 +305,7 @@ android.allow_backup = True
 # android.no-byte-compile-python = False
 
 # (str) The format used to package the app for release mode (aab or apk or aar).
-# android.release_artifact = aab
+android.release_artifact = aab
 
 # (str) The format used to package the app for debug mode (apk or aar).
 # android.debug_artifact = apk
