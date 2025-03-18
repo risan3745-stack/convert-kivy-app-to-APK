@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Capitalizer
+title = Foodi Woodi
 
 # (str) Package name
 package.name = arjunits
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.arjune
+package.domain = com.arjune
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,sdl2_ttf,pillow,kivy-garden,kivymd,openssl,android,requests,pygments,markupsafe,jinja2,pyjnius
+requirements = python3,pyjnius,sdl2_ttf,pillow,openssl,android,CacheControl==0.14.2,cachetools==5.5.1,certifi==2025.1.31,cffi==1.17.1,charset-normalizer==3.4.1,click==8.1.8,colorama==0.4.6,cryptography==44.0.1,docutils==0.21.2,filetype==1.2.0,firebase-admin==6.6.0,Flask==2.0.3,gcloud==0.18.3,google-api-core==2.24.1,google-api-python-client==2.161.0,google-auth==2.38.0,google-auth-httplib2==0.2.0,google-cloud-core==2.4.1,google-cloud-firestore==2.20.0,google-cloud-storage==3.0.0,google-crc32c==1.6.0,google-resumable-media==2.7.2,googleapis-common-protos==1.66.0,grpcio==1.70.0,grpcio-status==1.70.0,httplib2==0.22.0,idna==3.10,itsdangerous==2.2.0,Jinja2==3.1.5,jwcrypto==1.5.6,jws==0.1.3,Kivy==2.3.1,kivy_deps.angle==0.4.0,kivy_deps.glew==0.3.1,kivy_deps.sdl2==0.8.0,Kivy-Garden==0.1.5,KivyAuth==2.3.3,MarkupSafe==3.0.2,msgpack==1.1.0,oauth2client==4.1.3,oauthlib==3.2.2,pip==23.2.1,proto-plus==1.26.0,protobuf==5.29.3,pyasn1==0.6.1,pyasn1_modules==0.4.1,pycparser==2.22,pycryptodome==3.21.0,Pygments==2.19.1,PyJWT==2.10.1,pyparsing==3.2.1,pypiwin32==223,Pyrebase4==4.8.0,python-jwt==2.0.1,pywin32==309,requests==2.32.3,requests-toolbelt==0.10.1,rsa==4.9,setuptools==68.2.0,six==1.17.0,typing_extensions==4.12.2,uritemplate==4.1.1,urllib3==1.26.20,Werkzeug==2.0.3,wheel==0.41.2
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
