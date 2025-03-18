@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,sdl2_ttf,pillow,kivymd,kivy-garden,openssl,android,requests,pygments,markupsafe,jinja2,pyjnius,kivy==2.3.1,kivyAuth==2.3.3,Pyrebase4==4.8.0,firebase-admin==6.6.0
+requirements = python3, kivy, pyrebase4, requests, firebase_admin, pyjwt, cryptography, google-auth, google-api-python-client, httplib2, grpcio, protobuf
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
