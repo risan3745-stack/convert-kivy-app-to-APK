@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = Python3,appengine-python-standard,sdl2_ttf,pillow,openssl,android,pyjnius,kivy,pyrebase4,firebase-admin
+requirements = Python3,appengine-python-standard,sdl2_ttf,pillow,openssl,android,pyjnius,kivy,pyrebase4,firebase_admin,setuptools
 
 
 # (str) Custom source folders for requirements
