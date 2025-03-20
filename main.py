@@ -1103,9 +1103,9 @@ class MainApp(Screen):
         self.dropdown_menu = BoxLayout(
             orientation='vertical',
             size_hint=(None, None),
-            width=200,
+            width=400,
             height=0,
-            spacing=2,
+            spacing=10,
             padding=2,
             opacity=0
         )
@@ -1132,9 +1132,9 @@ class MainApp(Screen):
         for cuisine in cuisines:
             btn = Button(
                 text=cuisine,
-                size_hint_y=1,
+                size_hint_y=None,
                 background_normal=f'{cuisine}.png',
-                color=(0, 0, 0, 1),
+                color=(1, 1, 1, 1),
                 bold=True,
                 font_size='18sp',
                 border=(0, 0, 0, 1)
