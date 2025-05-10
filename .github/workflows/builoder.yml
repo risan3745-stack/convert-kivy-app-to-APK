@@ -1,4 +1,7 @@
-name: Build APK
+# Sample repository at https://github.com/Novfensec/SAMPLE-KIVYMD-APP
+# Tic Tac Toe Game at https://github.com/Novfensec/Tic-Tac-Toe-Android
+
+name: Android Build
 
 on:
   push:
@@ -10,7 +13,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v4
@@ -45,13 +48,6 @@ jobs:
           key: ${{ runner.os }}-android-sdk-${{ steps.get-date.outputs.date }}
           restore-keys: |
             ${{ runner.os }}-android-sdk-
-
-      - name: Patch CFFI to disable optimize=2
-        run: |
-             find . -name "build.py" | grep cffi | while read file; do
-             sed -i 's/ffibuilder.compile(verbose=True, debug=False)/ffibuilder.compile(verbose=True, debug=True)/' "$file"
-             done
-
 
       - name: Cache Android NDK
         uses: actions/cache@v4
@@ -102,7 +98,7 @@ jobs:
             pkg-config \
             libncurses5-dev \
             libncursesw5-dev \
-            libtinfo5 \
+            libtinfo6 \
             cmake \
             libffi-dev \
             libssl-dev \
