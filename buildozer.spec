@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Your App Name Here (No quotes)
+title = Mistwood Scorer
 
 # (str) Package name
-package.name = Package name. (no carefull planning required)
+package.name = mistwoodscorer
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.(your domain)
+package.domain = org.kivy
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -51,7 +51,7 @@ icon.filename = %(source.dir)s/images/icon.png
 
 # (list) Supported orientations
 # Valid options are: landscape, portrait, portrait-reverse or landscape-reverse
-orientation = landscape
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
