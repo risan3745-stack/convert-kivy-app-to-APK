@@ -44,7 +44,9 @@ requirements = python3, kivy==2.3.0, https://github.com/kivymd/KivyMD/archive/ma
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/images/icon.png # Upload your own images, so you can customize
+presplash.filename = %(source.dir)s/images/icon.png 
+
+# Upload your own images, so you can customize
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/images/icon.png
@@ -450,6 +452,7 @@ warn_on_root = 1
 #    Then, invoke the command line with the "demo" profile:
 #
 #buildozer --profile demo android debug
+
 
 
 
